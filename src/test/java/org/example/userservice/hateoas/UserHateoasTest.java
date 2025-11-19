@@ -1,11 +1,10 @@
-package org.example.userservice;
+package org.example.userservice.hateoas;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.example.userservice.controller.UserController;
 import org.example.userservice.dto.CreateUserRequest;
 import org.example.userservice.dto.UpdateUserRequest;
 import org.example.userservice.dto.UserResponse;
-import org.example.userservice.hateoas.UserModelAssembler;
 import org.example.userservice.service.UserService;
 import org.junit.jupiter.api.Test;
 import org.mockito.ArgumentMatchers;
@@ -21,7 +20,6 @@ import java.util.Date;
 import java.util.List;
 
 import static org.hamcrest.Matchers.endsWith;
-import static org.mockito.ArgumentMatchers.*;
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;

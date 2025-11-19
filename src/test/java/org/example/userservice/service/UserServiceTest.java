@@ -1,4 +1,4 @@
-package org.example.userservice;
+package org.example.userservice.service;
 
 import org.example.userservice.domain.User;
 import org.example.userservice.dto.CreateUserRequest;
@@ -11,7 +11,6 @@ import org.example.userservice.exception.types.NotFoundException;
 import org.example.userservice.mapper.UserMapper;
 import org.example.userservice.messaging.UserKafkaProducer;
 import org.example.userservice.repository.UserRepository;
-import org.example.userservice.service.UserService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.ArgumentCaptor;

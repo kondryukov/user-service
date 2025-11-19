@@ -1,7 +1,6 @@
-package org.example.userservice;
+package org.example.userservice.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.example.userservice.controller.UserController;
 import org.example.userservice.dto.CreateUserRequest;
 import org.example.userservice.dto.UpdateUserRequest;
 import org.example.userservice.dto.UserResponse;

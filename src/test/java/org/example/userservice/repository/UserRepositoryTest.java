@@ -1,7 +1,6 @@
-package org.example.userservice;
+package org.example.userservice.repository;
 
 import org.example.userservice.domain.User;
-import org.example.userservice.repository.UserRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

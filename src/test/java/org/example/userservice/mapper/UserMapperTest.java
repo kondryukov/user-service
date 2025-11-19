@@ -1,11 +1,10 @@
-package org.example.userservice;
+package org.example.userservice.mapper;
 
 
 import org.example.userservice.domain.User;
 import org.example.userservice.dto.CreateUserRequest;
 import org.example.userservice.dto.UpdateUserRequest;
 import org.example.userservice.dto.UserResponse;
-import org.example.userservice.mapper.UserMapper;
 import org.junit.jupiter.api.Test;
 
 import java.util.Date;

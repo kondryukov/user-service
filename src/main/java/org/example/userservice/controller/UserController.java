@@ -26,7 +26,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 
 @RestController
-@RequestMapping(value = "/users", produces = {MediaTypes.HAL_JSON_VALUE, MediaType.APPLICATION_JSON_VALUE })
+@RequestMapping(value = "/users", produces = {MediaTypes.HAL_JSON_VALUE, MediaType.APPLICATION_JSON_VALUE})
 @Tag(name = "Users Module", description = "User management operations")
 public class UserController {
 

@@ -19,7 +19,7 @@ public class KafkaProducerConfig {
     @Bean
     public ProducerFactory<String, UserEvent> producerFactory(ObjectMapper mapper) {
         Map<String, Object> configProperties = new HashMap<>();
-        configProperties.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
+        configProperties.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "kafka:9092");
 
         JsonSerializer<UserEvent> jsonSerializer = new JsonSerializer<>(mapper);
         jsonSerializer.setAddTypeInfo(false);
